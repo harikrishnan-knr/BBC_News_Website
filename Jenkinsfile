@@ -1,9 +1,5 @@
 pipeline {
 
-    agent {
-        label 'agent1'
-    }
-
     environment {
         IMAGE_NAME = 'bbc-new'
         CONTAINER_NAME = 'site'
