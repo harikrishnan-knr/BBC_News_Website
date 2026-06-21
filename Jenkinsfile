@@ -1,5 +1,5 @@
 pipeline {
-
+    agent any
     environment {
         IMAGE_NAME = 'bbc-new'
         CONTAINER_NAME = 'site'
